@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/a9/8a/1f/a98a1fe05019c395040c7872f7a26be4.gif);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+#terraria{
+    margin-left: 28%;
+    width: 600px;
+    margin-top: -1%;
+}
+
+input[type="checkbox"]{
+    float:left;
+}
+
+.input{
+    width: 98%;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 236, 208);
+    font-weight: bolder;
+    text-shadow: 2px 2px 1px rgb(138, 91, 20);
+}
+
+.boxes{
+    display: flex;
+    margin-left: 26%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.log{
+    margin-bottom: auto;
+    margin-right: 40px;
+    width: 270px;
+    background: rgba(106, 134, 115, 0.671);
+}
+
+.sign{
+    width: 270px;
+    background: rgba(106, 134, 115, 0.836);
+}
+
+.log, .sign{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.473);
+    color: white;
+    font-weight: 550;
+}
+
+.senha2{
+    margin-top: 15px;
+}
+
+#google2{
+    width: 200px;
+    margin-left: 35px;
+}
+
+.botao0{
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.botao0:hover{
+    cursor: pointer;
+    background-color:rgb(57, 80, 64);
+    color: white;
+}
+
+.botao1{
+    width: 50%;
+    margin-left: 68px;
+}
+
+.botao2{
+    width: 50%;
+    margin-left: 68px;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 33%;
+    margin-bottom: -100%;
+    margin-left: 35%;
+}
+
+.red{
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+}
